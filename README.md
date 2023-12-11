@@ -17,9 +17,6 @@
     <li>
       <a href="#Plus ">Plus</a>
     </li>
-    <li>
-      <a href="#Autres ">Autres</a>
-    </li>
   </ol>
 </details>
 
@@ -42,24 +39,11 @@ Pour installer le programme, vous pouvez cloner le dépôt git :
 ```
 $ git clone https://gitlab.ausy.com/ausy/embedded-bdx-rd/drone.git
 ```
-Ensuite, aller sur la branche "dev-mathieu" :
+
+Ensuite, aller à l'emplacement du fichier et ouvrez le avec VS Code :
 
 ```
-$ cd drone
-$ git checkout "dev-mathieu"
-$ git pull
-```
-Maintenant, vous pouvez installer VS Code :
-
-```
-$ sudo snap install snap-store
-$ snao install code
-```
-Pour finir, aller à l'emplacement du fichier et ouvrez le avec VS Code :
-
-```
-$ cd drone
-$ code ESP_Controller
+$ code Test_ESP32
 ```
 Ou ouvrez le projet depuis l'accueil de PlatformIO :
 

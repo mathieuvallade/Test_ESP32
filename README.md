@@ -128,11 +128,3 @@ Après avoir exécuté cette commande, vous devriez pouvoir accéder au port sé
 
 En ajoutant votre utilisateur au groupe "dialout", vous lui donnez les permissions nécessaires pour accéder aux ports série, ce qui permet de résoudre l'erreur de permission lors du téléversement du code sur l'ESP32.
 En suivant ces étapes, vous devriez pouvoir contourner l'erreur de permission lors du téléversement du code sur l'ESP32 et poursuivre le développement de votre projet en toute fluidité.
-
-## Autres 
-
-[Home](https://gitlab.ausy.com/ausy/embedded-bdx-rd/drone/-/tree/dev-mathieu/)
-
-[Joystick Arduino](https://gitlab.ausy.com/ausy/embedded-bdx-rd/drone/-/tree/dev-mathieu/Joystick_Ard)
-
-[Joystick ESP32](https://gitlab.ausy.com/ausy/embedded-bdx-rd/drone/-/tree/dev-mathieu/Joystick_ESP32)

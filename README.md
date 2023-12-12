@@ -57,7 +57,7 @@ Ou ouvrez le projet depuis l'accueil de PlatformIO :
 Vous pouvez maintenant déplacer le rover à l'aide de votre smartphone, en vous aidant des flèches directionnelles :
 
 <div>
-    <img src="Images/AppWeb.png" width="207" height="355">
+    <img src="Images/Results_web.jpg" width="207" height="355">
   </br></br>
 </div>
 

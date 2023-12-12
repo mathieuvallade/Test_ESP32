@@ -22,14 +22,15 @@
 
 ## Présentation
 
-Ce projet a pour objectif de tester la carte dans sa globalité en l'utilisant comme on le ferait pour un projet d'école. Nous allons utiliser l'ESP32 pour contrôler une voiture radiocommandée / Rover. Étant donné que nous n'avons pas le temps de concevoir une voiture RC, nous simulerons ses mouvements dans un terminal. Nous aurons ainsi la possibilité de contrôler la voiture RC à distance à l'aide d'un téléphone portable, en établissant une connexion Wi-Fi entre l'ESP32 et le téléphone. Cela nous offrira une interface utilisateur conviviale et permettra de visualiser l'état du voiture RC en temps réel. Le système sera composé de l'ESP32, qui sera utilisé comme microcontrôleur et point d'accès Wi-Fi, et d'un téléphone portable. Le téléphone portable servira à établir un partage de connexion, fournissant ainsi un réseau Wi-Fi auquel l'ESP32 se connectera. L'ESP32 hébergera ensuite une page web intégrée qui affichera l'état de la voiture RC, ainsi que des commandes de direction comprenant quatre flèches (haut, bas, gauche, droite) et un bouton d'arrêt pour immobiliser le véhicule.
+Ce projet a pour objectif de tester la carte dans sa globalité en l'utilisant comme on le ferait pour un projet d'école. Nous allons utiliser l'ESP32 pour contrôler une voiture radiocommandée / Rover. Étant donné que nous n'avons pas le temps de concevoir une voiture RC, nous simulerons ses mouvements dans un terminal. Nous aurons ainsi la possibilité de contrôler la voiture RC à distance à l'aide d'un téléphone portable, en établissant une connexion Wi-Fi entre l'ESP32 et le téléphone. Cela nous offrira une interface utilisateur conviviale et permettra de visualiser l'état du voiture RC en temps réel. Le système sera composé de l'ESP32, qui sera utilisé comme microcontrôleur et point d'accès Wi-Fi, et d'un téléphone portable. Le téléphone portable servira à établir un partage de connexion, fournissant ainsi un réseau Wi-Fi auquel l'ESP32 se connectera. 
 
-<div align="center">
+<div>
     <img src="Images/SchemaCom.png" width="687" height="175">
   </br></br>
 </div>
 
-L'utilisateur se connecte au réseau Wi-Fi généré par le téléphone portable, ce qui permet à l'ESP32 de se connecter au téléphone et d'accéder à la page web hébergée. Sur cette page, l'utilisateur peut visualiser en temps réel l'état du rover, tel que sa position. De plus, les flèches directionnelles permettent de contrôler le mouvement du rover dans différentes directions en fonction des commandes de l'utilisateur.
+L'ESP32 hébergera ensuite une page web intégrée qui affichera l'état de la voiture RC, ainsi que des commandes de direction comprenant quatre flèches (haut, bas, gauche, droite) et un bouton d'arrêt pour immobiliser le véhicule.
+
 
 ## Installation 
 
